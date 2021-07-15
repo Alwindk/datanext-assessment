@@ -1,0 +1,32 @@
+VUE3
+
+Setup:
+
+Open je gewenste command line (CMD, Powershell, etc) en ga naar de folder assesment front-end, vervolgens run je het commando: npm install 
+Als dit klaar is start je het project, run het commando: npm run serve
+Ga naar: http://localhost:8080/ (of een andere poort wat de command line aangeeft) om het interface te zien.
+Het project wordt automatisch geupdate dmv hot reloading als je code veranderd.
+
+
+Opdracht:
+
+Je gaat aan de hand van een meteorologische dataset de gegevens van een week inzichtelijk maken. 
+Het is de bedoeling dat je een simpel overzicht maakt per dag zoals je in het voorbeeld kunt zien. 
+De taal van het interface is Nederlands.
+Je bent ook verantwoordelijk voor de css. Maak na wat in het voorbeeld staat.
+Als je er niet uitkomt mag je het vragen.
+
+
+. Gebruik ForecastLayout.vue als hoofdcomponent.
+. Maak een nieuw component die per dag de gegevens laat zien. 
+. Maak voor de data een http request naar 'http://localhost:8080/weather.json'. Je mag zelf weten op welke manier je dit het liefst wilt doen (mag package installeren).
+. Uit de response die je terug krijgt toon de eerst 7 dagen (maandag t/m zondag (21-6-2021 t/m 27-6-2021)).
+. Laat de datum boven aan per blokje zien in het formaat dag maand jaar tijd.
+. Laat de temperatuur per dag zien. Rond de getallen af op een geheel getal + het celcius symbool: ° (mag je kopieren). 
+. Zet daaronder in het blokje het weer type per dag.
+. Bereken en laat zien wat de warmste en koudste dag van de week is aan de hand van 'temp.max' en 'temp.min'.
+. Geef de warmste dag een orangje tekst kleur + omlijning en voor de koudste dag een blauwe tekst kleur + omlijning.
+
+Extra:
+. Toon de namen van de dagen in alle blokjes wanneer je met je met de muis in een blokje komt. Zodra je uit het blokje gaat verdwijnt de dag.
+. Converteer celcius naar fahrenheit.

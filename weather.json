@@ -1,0 +1,53 @@
+{
+  "forecasts": [
+    {
+      "id": 1,
+      "date": "21-6-2021",
+      "time": "13:00:00",
+      "temp": "13",
+      "type": "matige regen"
+    },
+    {
+      "id": 2,
+      "date": "22-6-2021",
+      "time": "13:00:00",
+      "temp": "15",
+      "type": "bewolkt"
+    },
+    {
+      "id": 3,
+      "date": "23-6-2021",
+      "time": "13:00:00",
+      "temp": "17",
+      "type": "bewolkt"
+    },
+    {
+      "id": 4,
+      "date": "24-6-2021",
+      "time": "13:00:00",
+      "temp": "19",
+      "type": "half bewolkt"
+    },
+    {
+      "id": 5,
+      "date": "25-6-2021",
+      "time": "13:00:00",
+      "temp": "19",
+      "type": "half bewolkt"
+    },
+    {
+      "id": 6,
+      "date": "26-6-2021",
+      "time": "13:00:00",
+      "temp": "21",
+      "type": "licht bewolkt"
+    },
+    {
+      "id": 7,
+      "date": "27-6-2021",
+      "time": "13:00:00",
+      "temp": "19",
+      "type": "half bewolkt"
+    }
+  ]
+}
